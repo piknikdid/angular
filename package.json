@@ -1,0 +1,24 @@
+{
+  "name": "buddhasoft-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piknikdid/buddhasofts-test.git"
+  },
+  "author": "Nikita Pikarchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piknikdid/buddhasofts-test/issues"
+  },
+  "homepage": "https://github.com/piknikdid/buddhasofts-test#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
