@@ -7,11 +7,16 @@ config(['$locationProvider', '$routeProvider', 'localStorageServiceProvider',
       $routeProvider.
         when('/', {
           template: '<product-list></product-list>',
-
         }).
+
         when('/product/:productId', {
           template: '<product-detail></product-detail>'
         }).
+
+        when('/Admin', {
+          template: '<admin></admin>'
+        }).
+
         otherwise('/');
     }
   ]);

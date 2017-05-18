@@ -1,7 +1,7 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
+.starter-template{
   padding: 40px 15px;
   text-align: center;
 }
@@ -13,6 +13,11 @@ body {
 .product_img{
   max-width: 200px;
   max-height: 200px;
-  padding: 5px;
+  padding: 10px;
 
+}
+
+.admin-list{
+  padding: 40px 15px;
+  text-align: left;
 }
