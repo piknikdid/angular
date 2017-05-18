@@ -4,15 +4,7 @@
       <img class="product_img" ng-src="{{product.img}}" alt="product_img">
       <h3 class = 'product_name'>{{product.name}}</h3>
       <p>{{product.price}}</p>
-      <a href="#/product/{{product.id}}">View...</a>
+      <a href="#product/{{product.id}}">View...</a>
     </div>
   </div>
-    <div class="product_row row" >
-      <div class="col-md-3" ng-repeat = 'product in $ctrl.products |limitTo : 4: 4'>
-        <img class="product_img" ng-src="{{product.img}}" alt="product_img">
-        <h3 class = 'product_name'>{{product.name}}</h3>
-        <p>{{product.price}}</p>
-        <a href="#product/{{product.id}}">View...</a>
-      </div>
-</div>
 </div>
