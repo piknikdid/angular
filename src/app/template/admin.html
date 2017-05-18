@@ -1,0 +1,9 @@
+<div class="admin-list">
+  <ul class="list-group">
+     <li class="list-group-item" ng-repeat='product in $ctrl.products'>
+         <a href="#product/{{product.id}}">{{product.name}}</a>
+        <button  class="badge btn-danger" type="button" name="button">Delete</button>
+       <button  class="badge btn-warning" type="button" name="button">Edit</button>
+   </li>
+  </ul>
+</div>
