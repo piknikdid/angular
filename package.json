@@ -18,9 +18,11 @@
   "homepage": "https://github.com/piknikdid/buddhasofts-test#readme",
   "dependencies": {
     "angular": "^1.6.4",
+    "angular-local-storage": "^0.6.0",
     "angular-resource": "^1.6.4",
     "angular-route": "^1.6.4",
     "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "ngstorage": "^0.3.11"
   }
 }

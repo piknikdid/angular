@@ -1,7 +1,8 @@
 angular.module('productApp').
-config(['$locationProvider', '$routeProvider',
-    function config($locationProvider, $routeProvider) {
+config(['$locationProvider', '$routeProvider', 'localStorageServiceProvider',
+    function config($locationProvider, $routeProvider, localStorageServiceProvider) {
       $locationProvider.hashPrefix('');
+      localStorageServiceProvider.setPrefix('productApp');
 
       $routeProvider.
         when('/', {
