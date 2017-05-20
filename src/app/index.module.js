@@ -4,5 +4,8 @@ var ProductApp = angular.module('productApp',
   'LocalStorageModule',
   'productList',
   'admin',
-  'productDetail'
+  'productDetail',
+  'ngMaterial',
+  'ngMessages',
+  
 ]);

@@ -1,4 +1,6 @@
 angular.module('admin', [
   'LocalStorageModule',
-  'ngRoute'
+  'ngRoute',
+  'ngMaterial'
+  
 ]);

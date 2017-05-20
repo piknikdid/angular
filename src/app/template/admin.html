@@ -1,6 +1,8 @@
+
 <div class="admin-list">
+    <button class="badge btn-success md-primary md-raised" ng-click="showPost($event)">Add ++</button>
   <ul class="list-group">
-     <li class="list-group-item" ng-repeat='product in $ctrl.products'>
+     <li class="list-group-item" ng-repeat='product in products'>
          <a href="#product/{{product.id}}">{{product.name}}</a>
         <button  class="badge btn-danger" type="button" name="button">Delete</button>
        <button  class="badge btn-warning" type="button" name="button">Edit</button>
