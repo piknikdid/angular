@@ -1,8 +1,9 @@
 angular.module('productApp').
 config(['$locationProvider', '$routeProvider', 'localStorageServiceProvider',
-    function config($locationProvider, $routeProvider, localStorageServiceProvider) {
+    function ($locationProvider, $routeProvider, localStorageServiceProvider) {
+
+      //Set up routing
       $locationProvider.hashPrefix('');
-      localStorageServiceProvider.setPrefix('productApp');
 
       $routeProvider.
         when('/', {
@@ -17,6 +18,13 @@ config(['$locationProvider', '$routeProvider', 'localStorageServiceProvider',
           template: '<admin></admin>'
         }).
 
-        otherwise('/');
+        otherwise('/'); //TODO: ???
+
+
+        //Set up LocalStorage
+        localStorageServiceProvider.
+          setPrefix('productApp').
+          setStorageType('localStorage').
+          setNotify(false, false);
     }
   ]);

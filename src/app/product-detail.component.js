@@ -5,6 +5,7 @@ angular.
     controller: ['$http', '$routeParams','$scope', 'localStorageService',
       function ProductDetailController($http, $routeParams, $scope, localStorageService ) {
           $scope.id = $routeParams.productId;
-          $scope.product = localStorageService.get($scope.id)
+          $scope.product = localStorageService.get('product_'+$scope.id)
+          
         }]
       });

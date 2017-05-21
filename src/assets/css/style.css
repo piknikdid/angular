@@ -21,3 +21,8 @@ body {
   padding: 40px 15px;
   text-align: left;
 }
+
+.ng-invalid{
+  border: 1px solid red;
+
+}
