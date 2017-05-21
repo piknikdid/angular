@@ -6,9 +6,9 @@
     <div class="product_row row" ng-repeat="row in $ctrl.productRows">
       <div class="col-md-3" ng-repeat = '(key, product) in row'>
         <img class="product_img" ng-src="{{product.img}}" alt="product_img">
-        <h3 class = 'product_name'>{{product.name}}</h3>
-        <p>{{product.price}}</p>
-        <a href="#product/{{product.id}}">View</a>
+        <h3 class = 'product_name'>Name: {{product.name}}</h3>
+        <p>Price: {{product.price}}</p>
+        <a href="#product/{{product.id}}"><b>View</b></a>
       </div>
     </div>
   </div>
