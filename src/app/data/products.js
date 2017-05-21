@@ -1,44 +1,44 @@
 var products = [
   {
-  "name": "cd",
+  "name": "Cat1",
   "img":"http://lorempixel.com/200/200/cats/",
-  "detail": "makarenamakarenamakarena",
-  "price": "$100",
+  "detail": "Beautiful cat",
+  "price": 100,
   "id": 1
   },
   {
-  "name": "dvd",
+  "name": "Cat2",
   "img":"http://lorempixel.com/200/200/cats/",
-  "detail": "makarenamakarenamakarena",
-  "price": "$200",
+  "detail": "Smart cat",
+  "price": 200,
   "id": 2
   },
   {
-  "name": "Brdvd",
+  "name": "Cat3",
   "img":"http://lorempixel.com/200/200/cats/",
-  "detail": "makarenamakarenamakarena",
-  "price": "$300",
+  "detail": "Sad cat",
+  "price": 300,
   "id": 3
   },
   {
-    "name": "box",
+    "name": "Thing",
     "img":"http://lorempixel.com/200/200/",
-    "detail": "makarenamakarenamakarena",
-    "price": "$400",
+    "detail": "something",
+    "price": 400,
     "id": 4
   },
   {
-    "name": "light",
+    "name": "Thing1",
     "img":"http://lorempixel.com/200/200/",
-    "detail": "makarenamakarenamakarena",
-    "price": "$500",
+    "detail": "something1",
+    "price": 500,
     "id": 5
   },
     {
-        "name": "light",
+        "name": "thing2",
         "img":"http://lorempixel.com/200/200/",
-        "detail": "makarenamakarenamakarena",
-        "price": "$500",
+        "detail": "something2",
+        "price": 500,
         "id": 6
     }
 ];

@@ -22,22 +22,22 @@
                         <div class="form-group">
                             <label for="product_name">Name</label>
                             <input  name="product_name" type="text" class="form-control" id="product_name" placeholder="Name" ng-model="$ctrl.currentProduct.name" required>
-                            <span ng-show='frm.product_name.$error.required'>Value is empty</span>
+                            <span ng-show='frm.product_name.$dirty && frm.product_name.$error.required'>Value is empty</span>
                         </div>
                         <div class="form-group">
                             <label for="product_price">Price</label>
-                            <input  name="product_price" type="text" class="form-control" id="product_price" placeholder="Price" ng-model="$ctrl.currentProduct.price" required>
-                            <span ng-show='frm.product_price.$error.required'>Value is empty</span>
+                            <input  name="product_price" type="number" class="form-control" id="product_price" placeholder="Price" ng-model="$ctrl.currentProduct.price" required>
+                            <span ng-show='frm.product_price.$dirty && frm.product_price.$error.required'>Value is empty</span>
                         </div>
                         <div class="form-group">
                             <label for="product_detail">Description</label>
                             <input name="product_detail" type="textarea" class="form-control" id="product_detail" placeholder="Detail" ng-model="$ctrl.currentProduct.detail" required>
-                            <span ng-show='frm.product_detail.$error.required'>Value is empty</span>
+                            <span ng-show='frm.product_detail.$dirty && frm.product_detail.$error.required'>Value is empty</span>
                         </div>
                         <div class="form-group">
                             <label for="product_imgl">Image URL</label>
-                            <input name="product_imgl" type="text" class="form-control" id="product_imgl" placeholder="Image URL" ng-model="$ctrl.currentProduct.img" required>
-                            <span ng-show='frm.product_imgl.$error.required'>Value is empty</span>
+                            <input name="product_imgl" type="url" class="form-control" id="product_imgl" placeholder="Image URL" ng-model="$ctrl.currentProduct.img" required>
+                            <span ng-show='frm.product_imgl.$dirty && frm.product_imgl.$error.required'>Value is empty</span>
                         </div>
                     </form>
                 </div>

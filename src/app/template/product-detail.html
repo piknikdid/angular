@@ -1,5 +1,5 @@
 <h1>Детальная страница продукта</h1>
-<img ng-src="{{product.img}}" alt="">
-<p>Name:{{product.name}}</p>
-<p>Detail:{{product.detail}}</p>
-<p>Price:{{product.price}}</p>
+<a href="#product/{{product.id}}"><img class="product_img" ng-src="{{product.img}}" alt="product_img"></a>
+<h2>Name: {{product.name}}</h2>
+<h3>Detail: {{product.detail}}</h3>
+<h4>Price: ${{product.price}}</h4>
